@@ -1,12 +1,14 @@
-import argparse, socket, logging, concurrent.futures, sys, time, threading
+import argparse, socket, logging, concurrent.futures, sys, time
 import random
 
 # Comment out the line below to not print the INFO messages
 logging.basicConfig(level=logging.INFO)
 
 RED_DURATION = 10 #Variable to control the timer for red lights (in seconds)
-
-flagLock = threading.Lock()
+nGreen = False
+sGreen = False
+eGreen = False
+wGreen = False
 
 def recvall(sock, length):
     data = b''
@@ -21,23 +23,15 @@ def recvall(sock, length):
 
 def client(host, port, isAttacker, mode):
     # connect
-    global nGreen
-    global sGreen
-    global eGreen
-    global wGreen
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.connect((host ,port))
     isGreen = False
-    clientRole = ''
     turnRedMsg = "100"
     turnGreenMsg = "200"
     patienceValue = 1
-    latency = 0
     if (isAttacker):
         if mode == 1:
             patienceValue = 0
-        elif mode ==2:
-            latency = 0.1
         turnRedMsg = "105"
         turnGreenMsg = "205"
     logging.info('Connect to server: ' + host + ' on port: ' + str(port))
@@ -74,6 +68,7 @@ def client(host, port, isAttacker, mode):
         wGreen = False
         logging.info('Role is ' + clientRole)
     else:
+        logging.info('Received error: ' + message)
         clientRole = ''
 
     message = recvall(sock, 3).decode('utf-8')
@@ -85,15 +80,6 @@ def client(host, port, isAttacker, mode):
             logging.info(clientRole + ' Received: ' + message)
             if message.startswith("400"):
                 isGreen = False
-                if clientRole == 'N':
-                    nGreen = False
-                elif clientRole == 'S':
-                    sGreen = False
-                elif clientRole == 'E':
-                    eGreen = False
-                elif clientRole == 'W':
-                    wGreen = False
-
                 sendMessage = (turnRedMsg + " " + clientRole + " R").encode('utf-8')
                 sock.sendall(sendMessage)
                 logging.info(clientRole + ' Sent:' + sendMessage.decode('utf-8'))
@@ -106,44 +92,11 @@ def client(host, port, isAttacker, mode):
             logging.info(clientRole + ' Sent: ' + sendMessage.decode('utf-8'))
             message = recvall(sock, 7).decode('utf-8')
             logging.info(clientRole + ' Received: ' + message)
-            while message.startswith('800'):
-                message = recvall(sock, 7).decode('utf-8')
-                logging.info(clientRole + ' Received: ' + message)
             if message.startswith("300"):
                 isGreen = True
-                #if nGreen is None or sGreen is None or eGreen is None or wGren is None:
-                    #sendMessage = '705 Entering Error Mode'.encode('utf-8')
-                    #break
-                if clientRole == 'N' and nGreen is None:
-                    sock.sendall('700 a b'.encode('utf-8'))
-                elif clientRole == 'N':
-                    nGreen = False
-                elif clientRole == 'S' and sGreen is None:
-                    sock.sendall('700 a b'.encode('utf-8'))
-                elif clientRole == 'S':
-                    sGreen = False
-                elif clientRole == 'E' and eGreen is None:
-                    sock.sendall('700 a b'.encode('utf-8'))
-                elif clientRole == 'E':
-                    eGreen = False
-                elif clientRole == 'W' and wGreen is None:
-                    sock.sendall('700 a b'.encode('utf-8'))
-                elif clientRole == 'W':
-                    wGreen = False
+            else:
+                sys.exit(-1)
 
-            #else:
-                #sys.exit(-1)
-    
-    while True:
-        time.sleep(1)
-        if clientRole == 'N':
-            nGreen = False if (nGreen is None) else None
-        elif clientRole == 'S':
-            sGreen = False if (sGreen is None) else None
-        elif clientRole == 'E':
-            eGreen = False if (eGreen is None) else None
-        elif clientRole == 'W':
-            wGreen = False if (wGreen is None) else None
 
 if __name__ == '__main__':
     port = 9001
@@ -151,19 +104,15 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Basic Traffic Light Simulator')
     parser.add_argument('host', help='IP address of the server.')
     parser.add_argument('mode', type=int, help='Client attack mode. Enter 0 for normal operation.')
-    parser.add_argument('num_attackers', type=int,
-                        help='The number of attackers in the client attack mode.')
     args = parser.parse_args()
-    attackers = [False, False, False, False]
+    attacker = 4
     if args.mode > 0:
-        num_attackers = args.num_attackers if args.num_attackers < 5 else 4
-        attacker = -1
-        for i in range(args.num_attackers):
-            while attackers[attacker]:
-                attacker = random.randint(0, 3)
-            attackers[attacker] = True
+        attacker = random.randint(0, 3)
 
-    with concurrent.futures.ThreadPoolExecutor(4) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers = 4) as executor:
         for i in range(4):
-            isAttacker = attackers[i]
+            if i == attacker:
+                isAttacker = True
+            else:
+                isAttacker = False
             executor.submit(client, args.host, port, isAttacker, args.mode)

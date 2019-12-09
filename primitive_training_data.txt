@@ -1,0 +1,819 @@
+# J's data
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00100
+00000
+00100
+00000
+00000
+00000
+00000
+00000
+00000
+01000
+10000
+00000
+00000
+00000
+00000
+00000
+00100
+01000
+00000
+00000
+00000
+00000
+00000
+00010
+00100
+00000
+00000
+00000
+00000
+00000
+00001
+00010
+00000
+00000
+00000
+00000
+00000
+00000
+10001
+00000
+00000
+00000
+
+00000
+00000
+00000
+01000
+10000
+00000
+00000
+00000
+00000
+00000
+00000
+00001
+00100
+00000
+00000
+00000
+00000
+00000
+00000
+10010
+00000
+00000
+00000
+00000
+00000
+00000
+10001
+00000
+00000
+00000
+00000
+00000
+00000
+00100
+10000
+00000
+00000
+00000
+00000
+00000
+00000
+10000
+01000
+00000
+00000
+00000
+00000
+00000
+00010
+00100
+00000
+00000
+00000
+00000
+00000
+00001
+
+
+
+
+
+# Run 3
+0000
+1100
+1111
+0000
+0000
+1111
+0000
+0000
+1111
+0000
+0000
+1111
+0000
+0000
+1111
+0000
+0000
+1111
+
+INFO:root:Sent: 900
+INFO:root:Sent: 900
+INFO:root:Sent: 900
+INFO:root:Sent: 900
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to N:800 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 205 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to N:800 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from E: 105 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to E:800 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from N: 205 N G
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 400 W R
+INFO:root:Sent to E: 400 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 105 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Received from N: 205 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to N:800 N G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to W:800 W G
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+
+
+#run 2
+0000
+1100
+1010
+0000
+0011
+1100
+0000
+0010
+1000
+0000
+1111
+0000
+0000
+0110
+0000
+0011
+1010
+0000
+0010
+1000
+0
+
+INFO:root:Server is listening on port 9001
+INFO:root:Accepted connection.
+INFO:root:New connection added.
+INFO:root:Server is listening on port 9001
+INFO:root:Accepted connection.
+INFO:root:Received a message from client: 100 HELO
+INFO:root:New connection added.
+INFO:root:Received HELO ok from client.
+INFO:root:Received a message from client: 100 HELO
+INFO:root:Server is listening on port 9001
+INFO:root:Received HELO ok from client.
+INFO:root:Accepted connection.
+INFO:root:New connection added.
+INFO:root:Server is listening on port 9001
+INFO:root:Received a message from client: 100 HELO
+INFO:root:Accepted connection.
+INFO:root:New connection added.
+INFO:root:Received HELO ok from client.
+INFO:root:Server is listening on port 9001
+INFO:root:Received a message from client: 100 HELO
+INFO:root:Received HELO ok from client.
+INFO:root:Sent: 900
+INFO:root:Sent: 900
+INFO:root:Sent: 900
+INFO:root:Sent: 900
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 100 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Received from N: 200 N G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 100 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+INFO:root:Received from N: 200 N G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 205 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to N: 400 N R
+INFO:root:Sent to S: 400 S R
+INFO:root:Received from N: 100 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to W: 300 W G
+INFO:root:Sent to E: 300 E G
+INFO:root:Received from N: 200 N G
+INFO:root:Sent to E: 400 E R
+INFO:root:Sent to W: 400 W R
+INFO:root:Received from E: 105 E R
+INFO:root:Received from W: 105 W R
+INFO:root:Received from E: 205 E G
+INFO:root:Sent to E:800 E G
+INFO:root:Received from W: 205 W G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to E:800 E G
+INFO:root:Sent to W:800 W G
+INFO:root:Sent to N: 300 N G
+INFO:root:Sent to S: 300 S G
+INFO:root:Sent to S: 400 S R
+INFO:root:Sent to N: 400 N R
+INFO:root:Received from S: 105 S R
+INFO:root:Received from N: 100 N R
+INFO:root:Received from S: 205 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to S:800 S G
+INFO:root:Sent to E: 300 E G
+INFO:root:Sent to W: 300 W G
+

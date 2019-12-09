@@ -1,0 +1,10 @@
+#Working on no-chill scenario.
+
+Trying to figure out how to get the server
+thread to check whether it's out of sync.
+So far:
+	- adding check after getting turnGreenMsg
+	- refactor change events
+		- created changeEvents dictionary to allow indexing based on self.role
+		- still need to refactor 
+		- done

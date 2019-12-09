@@ -1,0 +1,13 @@
+What are we doing?
+	- Monitor traffic to server for attacks?
+	- Monitor traffic both ways to detect rogue server as well?
+
+Traffic Lights
+	- Man in the Middle
+	- Without System
+		- Tap comms, change messages so says it's going green or says
+		  it's staying red
+		- does the opposite (gridlock or CRASH!)
+	- With system
+		- When it detects a lying system, makes all the lights
+		  blinking red and Notifies police / administrators
