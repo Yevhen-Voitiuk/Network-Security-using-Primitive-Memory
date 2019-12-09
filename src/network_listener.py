@@ -53,6 +53,7 @@ def parse_packet(packet_list, change_codes):
                         hex_payload = hex_payload[0:5] + '0' + hex_payload[6:len(hex_payload)]
                         attack_bit = '1'
                 payload = int(hex_payload, 16)
+                payload = str(payload)
 
         # If no payload block was found, make it 0. Payload block is always the last line
         else:
