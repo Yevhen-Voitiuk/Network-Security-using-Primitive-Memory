@@ -8,8 +8,8 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 class BactMem():
     """ The Bacterial Memory Model implementation """
-    memory_file_name = '../data/memory_string.txt'
-    decision_file_name = '../data/decisions.txt'
+    memory_file_name = '../data/network_output.csv'#memory_string.txt'
+    decision_file_name = '../data/live_decisions.txt'
 
 
     def __init__(self, mem_entry_len, update_mode, decision_mode):

@@ -1,7 +1,9 @@
 import sys, subprocess, shlex, time
+import queue
 
-input_command = shlex.split('sudo tcpdump -AUtttvvvXXnns1024 -i lo0 port 9001 -l')
+input_command = shlex.split('sudo tcpdump -AUtttvvvXXnns1024 -i lo port 9001 -l')
 regex = shlex.split('egrep -o \"00:00:00.[0-9]+|val [0-9]+|ecr [0-9]+|length [0-9][0-9]|3[0-9]30 3\w\w\w \w\w\w\w \w+|\w+.\w+.\w+.\w+.\w+ > \w+.\w+.\w+.\w+.\w+\"')
+thread_queue = queue.Queue()
 #regex_obj = re.compile(regex)
 #input_command = shlex.split('sudo tcpdump -l -AUtttvvvXXnns1024 -i lo0 port 9001 | egrep -o \"00:00:00.[0-9]+|val [0-9]+|ecr ['
                 #'\'0-9]+|length [0-9][0-9|3[0-9]30 3\w\w\w \w\w\w\w \w+|\w+.\w+.\w+.\w+.\w+ > \w+.\w+.\w+.\w+.\w+\"')
@@ -52,8 +54,7 @@ def parse_packet(packet_list, change_codes):
                     if hex_payload.startswith('5', 5):
                         hex_payload = hex_payload[0:5] + '0' + hex_payload[6:len(hex_payload)]
                         attack_bit = '1'
-                payload = int(hex_payload, 16)
-                payload = str(payload)
+                payload = str(int(hex_payload, 16))
 
         # If no payload block was found, make it 0. Payload block is always the last line
         else:
@@ -68,9 +69,9 @@ def parse_packet(packet_list, change_codes):
     else:
         parsed_packet = [attack_bit, length, delta_time, src_port, dest_port, payload, val_timestamp, ecr_timestamp]
 
-    for i in parsed_packet:
-        print(i)
-    print("________________")
+#    for i in parsed_packet:
+#        print(i)
+#    print("________________")
     return parsed_packet
 
 
@@ -97,10 +98,10 @@ def listen_on_network():
         if line_count == 6:
             processed_packet = parse_packet(packet, change_codes)
             if processed_packet is not None:
-                print("Placeholder")
 
 
                 # CALL EXTERNAL FUNCTION TO PASS PROCESSED PACKET HERE #    #    #    #
+                thread_queue.put(processed_packet)
 
 
             # Reset the line count and packet list, ready for the next packet processing
@@ -109,4 +110,4 @@ def listen_on_network():
 
 
 # Run the script
-listen_on_network()
+#listen_on_network()
