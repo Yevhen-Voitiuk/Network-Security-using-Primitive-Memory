@@ -4,7 +4,7 @@ import sys
 #import random
 
 #Comment out this line to turn off logging
-logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+#logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 class BactMem():
     """ The Bacterial Memory Model implementation """
@@ -76,7 +76,7 @@ class BactMem():
             #logging.info(search_string[offset:] + " does not occur")
             offset += 1
             index = self.find_substr(search_string, offset)
-            if self.decisions.get(index + len(search_string[offset:])) is None:
+            if self.decisions.get(index + len(search_string[offset:])-1) is None:
                 index = -1
         return index, offset
 
